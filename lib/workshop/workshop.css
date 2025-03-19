@@ -1,0 +1,198 @@
+/* .workshop-downloader {
+  padding: 2rem;
+  max-width: 6rem;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #f6f7ff 0%, #fdfbff 100%);
+  border-radius: 1rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.workshop-title {
+  font-size: 2.5rem;
+  font-weight: 200px;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  background: linear-gradient(to right, #3b82f6, #8b5cf6, #ec4899);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
+.workshop-component {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 1.75rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: all 0.3s ease;
+  backdrop-filter: blur(4px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.workshop-component:hover {
+  transform: scale(1.01);
+}
+
+.workshop-label {
+  display: block;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.75rem;
+}
+
+.workshop-select {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 0.75rem;
+  color: #374151;
+  background-color: #f9fafb;
+  transition: all 0.3s ease;
+}
+
+.workshop-select:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.2);
+}
+
+.workshop-select:hover {
+  background-color: white;
+}
+
+.workshop-button {
+  width: 100%;
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  font-size: 1.125rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.workshop-button:hover {
+  background: linear-gradient(to right, #4f46e5, #7e22ce, #be185d);
+  transform: translateY(-2px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.workshop-button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.workshop-button-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.workshop-path-display {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f9fafb;
+  border-radius: 0.75rem;
+  border: 2px solid #f3f4f6;
+}
+
+.workshop-path-text {
+  color: #374151;
+}
+
+.workshop-path-label {
+  font-weight: 600;
+}
+
+.workshop-textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 0.75rem;
+  transition: all 0.3s ease;
+  height: 8rem;
+  color: #374151;
+  background-color: #f9fafb;
+  resize: none;
+}
+
+.workshop-textarea:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.2);
+}
+
+.workshop-textarea:hover {
+  background-color: white;
+}
+
+.workshop-console {
+  background-color: #111827;
+  color: #f3f4f6;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  height: 10rem;
+  overflow-y: auto;
+  font-family: monospace;
+  font-size: 0.875rem;
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+}
+
+.workshop-console-line {
+  padding: 0.25rem 0;
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeInUp 0.2s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.workshop-download-button {
+  width: 100%;
+  padding: 1.25rem 2.5rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+  box-shadow: 0 8px 20px rgba(16, 185, 129, 0.3);
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #10b981 0%, #14b8a6 100%);
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.workshop-download-button:hover {
+  background: linear-gradient(to right, #059669, #0d9488);
+  transform: translateY(-2px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.workshop-download-button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+  transform: none;
+} */
