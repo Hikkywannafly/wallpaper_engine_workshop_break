@@ -1,5 +1,5 @@
 appId: com.guasam.era
-productName: ElectronReactApp
+productName: WallpaperEngineDownloader-by-alexjoneso
 directories:
   buildResources: resources/build
 files:
@@ -20,7 +20,7 @@ removePackageScripts: true
 asarUnpack:
   - resources/**
 win:
-  executableName: ElectronReactApp
+  executableName: WallpaperEngineDownloader-by-alexjoneso
 nsis:
   artifactName: ${name}-${version}-setup.${ext}
   shortcutName: ${productName}

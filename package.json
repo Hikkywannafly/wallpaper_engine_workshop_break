@@ -1,5 +1,5 @@
 {
-  "name": "era",
+  "name": "steam-workshop-downloader",
   "version": "10.0.0",
   "description": "A modern Electron application template with React, Vite, TypeScript, and TailwindCSS",
   "main": "./out/main/main.js",

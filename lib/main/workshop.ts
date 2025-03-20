@@ -10,7 +10,7 @@ export function setupWorkshopHandlers() {
         const { message, type } = args
         const options = {
             type: type || 'info',
-            title: 'Wallpaper Engine Workshop Downloader',
+            title: 'Wallpaper Engine Workshop Downloader by alexjones',
             message: message,
             buttons: ['OK']
         }
@@ -39,7 +39,7 @@ export function setupWorkshopHandlers() {
             : join(process.resourcesPath, 'DepotDownloaderMod', 'DepotDownloadermod.exe')
 
         if (!existsSync(depotDownloaderPath)) {
-            throw new Error('Không tìm thấy DepotDownloader. Vui lòng kiểm tra lại cài đặt ứng dụng.')
+            throw new Error('DepotDownloader not found. Please reinstall the application.')
         }
 
         return new Promise((resolve, reject) => {
