@@ -10,7 +10,7 @@ This tool is built with **Electron** and uses the following library:
 👉 [DepotDownloaderMod](https://github.com/SteamAutoCracks/DepotDownloaderMod)
 ## 🚀 Usage
 
-* Make sure you have [.NET 9.0 Runtime](https://dotnet.microsoft.com/download/dotnet/thank-you/runtime-9.0.0-windows-x64-installer) installed.
+Make sure you have [.NET 9.0 Runtime](https://dotnet.microsoft.com/download/dotnet/thank-you/runtime-9.0.0-windows-x64-installer) installed.
 
 ### Steps:
 1.  Download and install [➡️ Download v1.1.0](https://github.com/Hikkywannafly/wallpaper_engine_workshop_break/releases/tag/v1.1.0)
@@ -21,7 +21,7 @@ This tool is built with **Electron** and uses the following library:
 5. Set the path to your **Wallpaper Engine projects folder**  
    (the folder path should include `\projects\myprojects`) 
 6. Hit the `Download` button and wait for it to finish.
-7. 
+
 ## 🐞 Bug Reports
 If you encounter any issues or bugs, feel free to open an issue in this repository.
 [🐞 Report a Bug](https://github.com/Hikkywannafly/wallpaper_engine_workshop_break/issues)
