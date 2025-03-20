@@ -34,10 +34,12 @@ export function setupWorkshopHandlers() {
     ipcMain.handle('download-workshop-item', async (_, args) => {
         const { pubfileId, username, password, savePath } = args
         const targetDirectory = join(savePath, pubfileId)
-        const depotDownloaderPath = join(app.getAppPath(), 'DepotDownloaderMod', 'DepotDownloadermod.exe')
+        const depotDownloaderPath = process.env.NODE_ENV === 'development'
+            ? join(app.getAppPath(), 'DepotDownloaderMod', 'DepotDownloadermod.exe')
+            : join(process.resourcesPath, 'DepotDownloaderMod', 'DepotDownloadermod.exe')
 
         if (!existsSync(depotDownloaderPath)) {
-            throw new Error('DepotDownloader không tìm thấy. Vui lòng kiểm tra lại thư mục DepotDownloaderMod.')
+            throw new Error('Không tìm thấy DepotDownloader. Vui lòng kiểm tra lại cài đặt ứng dụng.')
         }
 
         return new Promise((resolve, reject) => {

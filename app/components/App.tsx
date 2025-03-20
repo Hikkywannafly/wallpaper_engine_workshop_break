@@ -126,9 +126,6 @@ const WorkshopDownloader = ({ onDownloadStart, onDownloadComplete }: WorkshopDow
         isDownloading={isDownloading}
         onLinksChange={setLinks}
       />
-
-      {/* <ConsoleOutput consoleOutput={consoleOutput} /> */}
-
       <button
         className={`px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-600 text-white  s hover:from-blue-700 hover:to-purple-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition-all duration-300 ${isDownloading ? 'opacity-50 cursor-not-allowed' : ''}`}
         onClick={handleDownload}
