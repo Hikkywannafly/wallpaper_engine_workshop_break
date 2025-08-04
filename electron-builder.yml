@@ -1,5 +1,5 @@
-appId: com.guasam.era
-productName: WallpaperEngineDownloader-by-alexjoneso
+appId: com.alexjoneso.wedownloader
+productName: WE Downloader - alexjoneso
 directories:
   buildResources: resources/build
 files:
@@ -20,7 +20,8 @@ removePackageScripts: true
 asarUnpack:
   - resources/**
 win:
-  executableName: WallpaperEngineDownloader-by-alexjoneso
+  executableName: WE-Downloader-alexjoneso
+  icon: resources/build/icon.ico
 nsis:
   artifactName: ${name}-${version}-setup.${ext}
   shortcutName: ${productName}
@@ -34,6 +35,7 @@ nsis:
     - vi_VN
   language: 1066
 mac:
+  icon: resources/build/icon.png
   entitlementsInherit: resources/build/entitlements.mac.plist
   extendInfo:
     - NSCameraUsageDescription: Application requests access to the device's camera.
@@ -44,6 +46,7 @@ mac:
 dmg:
   artifactName: ${name}-${version}.${ext}
 linux:
+  icon: resources/build/icon.png
   target:
     - AppImage
     - snap

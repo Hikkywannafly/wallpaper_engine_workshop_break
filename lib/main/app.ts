@@ -6,18 +6,23 @@ import appIcon from '@/resources/build/icon.png?asset'
 export function createAppWindow(): void {
   const mainWindow = new BrowserWindow({
     width: 900,
-    height: 670,
+    height: 760,
+    maxHeight: 760,
+    minHeight: 760,
+    maxWidth: 900,
+    minWidth: 900,
     show: false,
-    backgroundColor: '#1c1c1c',
+    backgroundColor: '#f3f4f6',
     icon: appIcon,
-    frame: false,
-    titleBarStyle: 'hiddenInset',
-    title: 'Wallpaper Engener Downloader by alexjoneso',
-    maximizable: false,
-    resizable: false,
+    frame: true,
+    title: 'WE Downloader - alexjoneso',
+    maximizable: true,
+    resizable: true,
     webPreferences: {
       preload: join(__dirname, '../preload/preload.js'),
       sandbox: false,
+      nodeIntegration: false,
+      contextIsolation: true,
     },
   })
 

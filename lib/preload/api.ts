@@ -7,6 +7,12 @@ const api = {
   receive: (channel: string, func: (...args: any[]) => void) => {
     ipcRenderer.on(channel, (_, ...args) => func(...args))
   },
+  on: (channel: string, func: (...args: any[]) => void) => {
+    ipcRenderer.on(channel, (_, ...args) => func(...args))
+  },
+  removeListener: (channel: string, func: (...args: any[]) => void) => {
+    ipcRenderer.removeListener(channel, func)
+  },
   invoke: (channel: string, ...args: any[]) => {
     return ipcRenderer.invoke(channel, ...args)
   },

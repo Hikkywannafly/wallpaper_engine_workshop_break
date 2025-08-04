@@ -1,7 +1,7 @@
 {
-  "name": "steam-workshop-downloader",
+  "name": "we-downloader-alexjoneso",
   "version": "10.0.0",
-  "description": "A modern Electron application template with React, Vite, TypeScript, and TailwindCSS",
+  "description": "WE Downloader - alexjoneso - Wallpaper Engine Workshop Downloader",
   "main": "./out/main/main.js",
   "license": "MIT",
   "repository": {
