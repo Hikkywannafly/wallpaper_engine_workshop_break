@@ -13,7 +13,7 @@ This tool is built with **Electron** and uses the following library:
 Make sure you have [.NET 9.0 Runtime](https://dotnet.microsoft.com/download/dotnet/thank-you/runtime-9.0.0-windows-x64-installer) installed.
 
 ### Steps:
-1.  Download and install [➡️ Download v1.1.0](https://github.com/Hikkywannafly/wallpaper_engine_workshop_break/releases/tag/v1.1.0)
+1.  Download and install (new version) [➡️ Download v2.0.0](https://github.com/Hikkywannafly/wallpaper_engine_workshop_break/releases/tag/v2.0.0)
 2.  Go to the Wallpaper Engine Workshop: [https://steamcommunity.com/app/431960/workshop/](https://steamcommunity.com/app/431960/workshop/)
 3.  Find a wallpaper you like and copy its URL.  
    Example: `https://steamcommunity.com/sharedfiles/filedetails/?id=3445534475`
