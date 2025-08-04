@@ -342,7 +342,7 @@ const WorkshopDownloader = ({ onDownloadStart, onDownloadComplete }: WorkshopDow
             <div style={contentStyle}>
                 <div style={{ textAlign: 'center' as const }}>
                     <h1 style={{ fontSize: '1.5rem', fontWeight: 'bold', marginBottom: '6px', color: '#2d3748' }}>
-                        🎨 WE Downloader - alexjoneso
+                         WE Downloader - alexjoneso
                     </h1>
                     <p style={{ color: '#718096', fontSize: '0.8rem' }}>
                         Made by alexjoneso • If u have any problem contact me on discord: nekozzuki
