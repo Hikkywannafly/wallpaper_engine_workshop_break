@@ -1,7 +1,7 @@
 # Wallpaper engine workshop break
 ![GitHub all releases](https://img.shields.io/github/downloads/Hikkywannafly/wallpaper_engine_workshop_break/total.svg)
 <br/>
-[➡️ Download v1.1.0](https://github.com/Hikkywannafly/wallpaper_engine_workshop_break/releases/tag/v1.1.0)
+[➡️ Download v2.0.0](https://github.com/Hikkywannafly/wallpaper_engine_workshop_break/releases/tag/v2.0.0)
 ## 📥 Description
 
 A tool that allows you to download most wallpapers from the Steam Workshop for **Wallpaper Engine**.
