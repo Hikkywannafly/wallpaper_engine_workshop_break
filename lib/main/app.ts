@@ -6,9 +6,9 @@ import appIcon from '@/resources/build/icon.png?asset'
 export function createAppWindow(): void {
   const mainWindow = new BrowserWindow({
     width: 900,
-    height: 760,
-    maxHeight: 760,
-    minHeight: 760,
+    height: 900,
+    maxHeight: 900,
+    minHeight: 900,
     maxWidth: 900,
     minWidth: 900,
     show: false,

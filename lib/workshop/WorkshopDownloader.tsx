@@ -342,7 +342,7 @@ const WorkshopDownloader = ({ onDownloadStart, onDownloadComplete }: WorkshopDow
             <div style={contentStyle}>
                 <div style={{ textAlign: 'center' as const }}>
                     <h1 style={{ fontSize: '1.5rem', fontWeight: 'bold', marginBottom: '6px', color: '#2d3748' }}>
-                         WE Downloader - alexjoneso
+                        WE Downloader - alexjoneso
                     </h1>
                     <p style={{ color: '#718096', fontSize: '0.8rem' }}>
                         Made by alexjoneso • If u have any problem contact me on discord: nekozzuki
@@ -387,12 +387,25 @@ const WorkshopDownloader = ({ onDownloadStart, onDownloadComplete }: WorkshopDow
                     <div style={cardStyle}>
                         <label style={labelStyle}>📁 Download Directory</label>
                         <button
-                            style={{ ...inputStyle, background: 'linear-gradient(45deg, #667eea, #764ba2)', color: 'white', cursor: 'pointer', marginBottom: '12px', border: 'none' }}
+                            style={{ ...inputStyle, background: 'linear-gradient(45deg, #667eea, #764ba2)', color: 'white', cursor: 'pointer', marginBottom: '8px', border: 'none' }}
                             onClick={handlePathSelect}
                         >
                             📂 Select Directory
                         </button>
-
+                        {savePath && savePath !== 'Not set' && (
+                            <div style={{
+                                fontSize: '0.75rem',
+                                color: '#666',
+                                background: '#f8f9fa',
+                                padding: '6px 8px',
+                                borderRadius: '4px',
+                                border: '1px solid #e9ecef',
+                                wordBreak: 'break-all',
+                                fontFamily: 'monospace'
+                            }}>
+                                📍 {savePath}
+                            </div>
+                        )}
                     </div>
 
                     <div style={cardStyle}>
