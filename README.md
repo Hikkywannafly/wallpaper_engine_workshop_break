@@ -26,3 +26,5 @@ Make sure you have [.NET 9.0 Runtime](https://dotnet.microsoft.com/download/dotn
 If you encounter any issues or bugs, feel free to open an issue in this repository.
 [🐞 Report a Bug](https://github.com/Hikkywannafly/wallpaper_engine_workshop_break/issues)
 
+give a star pls :>
+<img width="187" height="79" alt="{0D3EB012-F81D-4AFB-A212-D9BBD17F0DB9}" src="https://github.com/user-attachments/assets/c2de4f2b-100c-4612-a21a-fa119984d778" />
