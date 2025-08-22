@@ -6,8 +6,7 @@
 
 A tool that allows you to download most wallpapers from the Steam Workshop for **Wallpaper Engine**.
 
-This tool is built with **Electron** and uses the following library:  
-👉 [DepotDownloaderMod](https://github.com/SteamAutoCracks/DepotDownloaderMod)
+This tool is built with **Electron** and uses the following library: DepotDownloaderMod
 ## 🚀 Usage
 
 Make sure you have [.NET 9.0 Runtime](https://dotnet.microsoft.com/download/dotnet/thank-you/runtime-9.0.0-windows-x64-installer) installed.
